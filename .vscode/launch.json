@@ -14,7 +14,7 @@
         {
             "name": "Python: Arquivo Atual - sampleC",
             "args": [
-                ".\\sampleC.c"
+                ".\\data\\input\\sampleC.c"
             ],
             "type": "python",
             "request": "launch",
