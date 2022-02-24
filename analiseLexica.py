@@ -14,31 +14,21 @@ class AnaliseSintatica:
         self.analisar()
     
     def analisar(self):
-        """Função que vai ler e analisar o arquivo .c definido no self.path"""        
+        """Função que vai ler e analisar o arquivo .c definido no self.path"""
+        tokens: list[dict] = list()
         with open(self.caminho, 'r', encoding='utf-8') as arquivo:
-            for linha in arquivo.readlines():
-                if(not self.checarReservadas(linha)):
-                    return False
+            for (index, linha) in enumerate(arquivo.readlines()):
+                tokensLinha: dict = {linha: index, tokens: self.separarTokens(linha)}
 
-    def checarReservadas(self, linha: str):
-        """ Separa a linha em tokens e checa se estão contidos em Palavras/Simbolos reservadas"""
+    def separarTokens(self, linha: str):
+        """ Separa a linha em tokens"""
         print(">>>", linha)
         print("Lenght:", len(linha))
 
         # Checa se a String é vazia
-        if(re.match(r'^( )|()$', linha)): 
-            print("Split: Linha vazia")
-            return True
-        # linha = linha.replace("\n", "").replace("(", " ( ").replace(")", " ) ")
-        linha = re.sub(r"(;|\(|\)|,|{|}|\n|\s{1})", r" \1 ", linha)
-        print("OI:", linha)
-        print("Split:", linha.split(" "))
-        # print("Split:", re.split(r"/;|\(|\)|,|{|}|\n|\s/g", linha))
-        # print("Split:", re.split(r"/;|\(|\)|,|{|}|\n|\s{1}/g", linha))
+        if(len(linha.strip()) == 0): return True
 
-        # linha = linha.replace(" ", "§").replace(";", "§").replace("(", "§").replace(")", "§").replace(",", "§").replace("{", "§").replace("}", "§").replace("\n", "§")
-        # print(linha)
-        # print(linha.split("§"))
+        
         return True
         
 
