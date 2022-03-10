@@ -7,5 +7,9 @@ PALAVRAS_RESERVADAS = ["auto",	"else",	"long",	"switch",
                        "default",	"if",	"static",	"while",
                        "do",	"int",	"struct",	"_Packed",
                        "double"]
-SIMBOLOS_RESERVADOS = ["~", "!", "#", "$", "%", "^", "&", "*", "_", "+", ",", ".", "/", "\\", "|", "`", "-", "=", "<", ">", "?", ":", ";"]
 SIMBOLOS_DE_ENCAPSULAMENTO = ["(", ")", "{", "}", "[", "]", "\""]
+
+SIMBOLOS_RESERVADOS = ["~", "!", "#", "$", "%", "^", "&", "*", "_", "+", ",", ".", "/", "\\", "|", "`", "-", "=", "<", ">", "?", ":", ";"]
+
+SIMBOLOS_COMPOSTOS_TRIPLOS = ["<<=", ">>="]
+SIMBOLOS_COMPOSTOS_DUPLOS = ["++", "--", "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=", "==", "!=", ">=", "<=", "&&", "||", "//"]

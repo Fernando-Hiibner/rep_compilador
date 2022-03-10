@@ -1,3 +1,4 @@
+//
 #include <stdio.h>
 
 // function to get matrix elements entered by the user

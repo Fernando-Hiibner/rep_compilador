@@ -12,9 +12,21 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Arquivo Atual - sampleC",
+            "name": "Python: Arquivo Atual - sampleC c",
             "args": [
-                ".\\data\\input\\sampleC.c"
+                ".\\data\\input\\sampleC c.c",
+                ".\\data\\output\\debugg"
+            ],
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Arquivo Atual - sampleC s",
+            "args": [
+                ".\\data\\input\\sampleC s.c",
+                ".\\data\\output\\debugg"
             ],
             "type": "python",
             "request": "launch",

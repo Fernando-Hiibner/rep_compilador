@@ -1,0 +1,3085 @@
+[
+    {
+        "linha": 0,
+        "tokens": [
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "#"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "include"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "stdio"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "."
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "h"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ">"
+            }
+        ]
+    },
+    {
+        "linha": 1,
+        "tokens": []
+    },
+    {
+        "linha": 2,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "function"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "to"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "get"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "elements"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "entered"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "by"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "user"
+            }
+        ]
+    },
+    {
+        "linha": 3,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "void"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "getMatrixElements"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "row"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 4,
+        "tokens": []
+    },
+    {
+        "linha": 5,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "nEnter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "elements"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "n"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 6,
+        "tokens": []
+    },
+    {
+        "linha": 7,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "row"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 8,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 9,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "a"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "+"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "+"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "1"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 10,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "scanf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 11,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 12,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 13,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 14,
+        "tokens": []
+    },
+    {
+        "linha": 15,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "function"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "to"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "multiply"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "two"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrices"
+            }
+        ]
+    },
+    {
+        "linha": 16,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "void"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "multiplyMatrices"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            }
+        ]
+    },
+    {
+        "linha": 17,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            }
+        ]
+    },
+    {
+        "linha": 18,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            }
+        ]
+    },
+    {
+        "linha": 19,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 20,
+        "tokens": []
+    },
+    {
+        "linha": 21,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Initializing"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "elements"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "of"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "mult"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "to"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "linha": 22,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 23,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 24,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 25,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 26,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 27,
+        "tokens": []
+    },
+    {
+        "linha": 28,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Multiplying"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrices"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "storing"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "it"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "in"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            }
+        ]
+    },
+    {
+        "linha": 29,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 30,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 31,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "k"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "k"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "k"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 32,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "+="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "k"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "*"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "k"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 33,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 34,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 35,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 36,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 37,
+        "tokens": []
+    },
+    {
+        "linha": 38,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "function"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "to"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "display"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            }
+        ]
+    },
+    {
+        "linha": 39,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "void"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "display"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "row"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 40,
+        "tokens": []
+    },
+    {
+        "linha": 41,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "nOutput"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Matrix"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "n"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 42,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "row"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 43,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "<"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "++"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 44,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "i"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 45,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "if"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "j"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "=="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "-"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "1"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            }
+        ]
+    },
+    {
+        "linha": 46,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "n"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 47,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 48,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 49,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 50,
+        "tokens": []
+    },
+    {
+        "linha": 51,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "main"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 52,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "int"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "["
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "10"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "]"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 53,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "rows"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 54,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "scanf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 55,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "rows"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "column"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 56,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "scanf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 57,
+        "tokens": []
+    },
+    {
+        "linha": 58,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Taking"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "input"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "until"
+            }
+        ]
+    },
+    {
+        "linha": 59,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "1st"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "columns"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "is"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "not"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "equal"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "to"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "2nd"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "row"
+            }
+        ]
+    },
+    {
+        "linha": 60,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "while"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "!="
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "{"
+            }
+        ]
+    },
+    {
+        "linha": 61,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Error"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "!"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "rows"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "columns"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "again"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "."
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "\\"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "n"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 62,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "rows"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "columns"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 63,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "scanf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 64,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "printf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "Enter"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "rows"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "and"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "columns"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "for"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ":"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 65,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "scanf"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "%"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "d"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "\""
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "&"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 66,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "linha": 67,
+        "tokens": []
+    },
+    {
+        "linha": 68,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "get"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "elements"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "of"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            }
+        ]
+    },
+    {
+        "linha": 69,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "getMatrixElements"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 70,
+        "tokens": []
+    },
+    {
+        "linha": 71,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "get"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "elements"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "of"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrix"
+            }
+        ]
+    },
+    {
+        "linha": 72,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "getMatrixElements"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 73,
+        "tokens": []
+    },
+    {
+        "linha": 74,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "multiply"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "two"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "matrices"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "linha": 75,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "multiplyMatrices"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "first"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "second"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r2"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 76,
+        "tokens": []
+    },
+    {
+        "linha": 77,
+        "tokens": [
+            {
+                "type": "SIMBOLO_COMPOSTO_DUPLO",
+                "value": "//"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "display"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "the"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            }
+        ]
+    },
+    {
+        "linha": 78,
+        "tokens": [
+            {
+                "type": "INDETERMINADO",
+                "value": "display"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "result"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "r1"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ","
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "c2"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 79,
+        "tokens": []
+    },
+    {
+        "linha": 80,
+        "tokens": [
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "return"
+            },
+            {
+                "type": "INDETERMINADO",
+                "value": "0"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": ";"
+            }
+        ]
+    },
+    {
+        "linha": 81,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "}"
+            }
+        ]
+    }
+]
