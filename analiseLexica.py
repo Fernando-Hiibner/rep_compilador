@@ -1,5 +1,4 @@
 # Importação de libs do sistema
-import argparse
 from json import dumps
 from datetime import datetime
 from pathlib import Path
@@ -14,6 +13,7 @@ class AnaliseLexica:
     def __init__(self, caminho: str, caminhoSaida: str):
         self.caminho = caminho
         self.caminhoSaida = caminhoSaida
+        self.arquivoAnalisado: list[dict] = list()
         self.analisar()
 
     def analisar(self):
@@ -24,6 +24,8 @@ class AnaliseLexica:
                 # tokensLinha: dict = {"linha": index, "tokens": self.separarTokens(linha)}
                 tokens.append(
                     {"linha": index, "tokens": self.separarTokens(linha)})
+
+        self.arquivoAnalisado = tokens
 
         data = str(datetime.now()).replace(":", "-")
         with open(Path(self.caminhoSaida+data+".json"), 'w', encoding='utf-8') as saida:
@@ -130,14 +132,4 @@ class AnaliseLexica:
 
 
 if __name__ == '__main__':
-    # Criação do Parser de comandos da linha de comando
-    parser = argparse.ArgumentParser(description='Analisar um arquivo .c')
-
-    # Parse Args
-    parser.add_argument(
-        'input_path', help='Caminho do arquivo .c que você quer analisar')
-    parser.add_argument('output_path', default='./data/output/output',
-                        help='Caminho da saida .txt do arquivo que você analisou')
-    args = parser.parse_args()
-
-    AnaliseLexica(args.input_path, args.output_path)
+    print("Por favor, execute o main.py")

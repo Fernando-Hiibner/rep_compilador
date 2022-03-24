@@ -15,7 +15,7 @@
             "name": "Python: Arquivo Atual - sampleC c",
             "args": [
                 ".\\data\\input\\sampleC c.c",
-                ".\\data\\output\\debugg"
+                ".\\data\\output\\tokens\\debugg"
             ],
             "type": "python",
             "request": "launch",
@@ -26,7 +26,7 @@
             "name": "Python: Arquivo Atual - sampleC s",
             "args": [
                 ".\\data\\input\\sampleC s.c",
-                ".\\data\\output\\debugg"
+                ".\\data\\output\\tokens\\debugg"
             ],
             "type": "python",
             "request": "launch",
