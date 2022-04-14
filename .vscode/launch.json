@@ -15,7 +15,7 @@
             "name": "Python: Arquivo Atual - sampleC c",
             "args": [
                 ".\\data\\input\\sampleC c.c",
-                ".\\data\\output\\tokens\\debugg"
+                "-top=\".\\data\\output\\tokens\\debugg\""
             ],
             "type": "python",
             "request": "launch",
@@ -26,7 +26,18 @@
             "name": "Python: Arquivo Atual - sampleC s",
             "args": [
                 ".\\data\\input\\sampleC s.c",
-                ".\\data\\output\\tokens\\debugg"
+                "-top=\".\\data\\output\\tokens\\debugg\""
+            ],
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Arquivo Atual - sampleCustom s.",
+            "args": [
+                ".\\data\\input\\sampleCustom s.custom",
+                "-top=\".\\data\\output\\tokens\\debugg\""
             ],
             "type": "python",
             "request": "launch",

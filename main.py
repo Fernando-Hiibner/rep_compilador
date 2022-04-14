@@ -20,3 +20,4 @@ if __name__ == '__main__':
     tokens = analisadorLexico.arquivoAnalisado
 
     analisadorSintatico = AnaliseSintatica(tokens)
+    analisadorSintatico.analisar()

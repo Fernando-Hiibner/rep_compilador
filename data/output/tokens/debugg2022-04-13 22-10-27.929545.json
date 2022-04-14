@@ -1,0 +1,153 @@
+[
+    {
+        "linha": 0,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "id"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "+"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            }
+        ]
+    },
+    {
+        "linha": 1,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "id"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "+"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "-"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "+"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "*"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            }
+        ]
+    },
+    {
+        "linha": 2,
+        "tokens": [
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "id"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "/"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "*"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": "("
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "*"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "num"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            },
+            {
+                "type": "SIMBOLO_RESERVADO",
+                "value": "/"
+            },
+            {
+                "type": "PALAVRA_RESERVADA",
+                "value": "id"
+            },
+            {
+                "type": "SIMBOLO_DE_ENCAPSULAMENTO",
+                "value": ")"
+            }
+        ]
+    }
+]
